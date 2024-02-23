@@ -11,6 +11,8 @@ ChaseTarget: Chases a target if it gets close enough (within ChaseDistance).
 HandleDamage: Triggers the "Chase" state when the dummy takes damage.
 The RunService.Heartbeat event triggers every frame and updates the dummy's behavior based on its current state.  
   
+
+```
 local RunService = game:GetService("RunService")
 local Workspace = game:GetService("Workspace")
 
@@ -78,6 +80,6 @@ Dummy.Humanoid.TookDamage:Connect(HandleDamage)
 -- like reacting to obstacles, hiding, or using cover.
 
 -- Remember to replace placeholders like "Dummy" and adjust values based on your setup.
-
+```
 
   
