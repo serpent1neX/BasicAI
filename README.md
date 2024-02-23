@@ -1,0 +1,2 @@
+# BasicAI
+OMG POG AI FOR DUMMIES!!!!!1!!11!
